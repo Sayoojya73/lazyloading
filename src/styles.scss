@@ -1,0 +1,86 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    height: 500px;
+}
+.card{
+  background-color: rgba(255, 255, 255, 0.865);
+  padding: 0px;
+  margin: 0px;
+}
+
+.row{
+
+padding: 0px;
+margin: 0px;
+}
+
+.card:hover{
+  box-shadow: 3px 3px 3px white;
+  }
+  .col-12{
+    display: flex;
+    flex-direction: row;
+     width: 100%;
+    justify-content:space-around;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+ @media screen and (max-width:400px) {
+   .carousel-item img{
+    height:300px;
+   }
+  .col-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  .card img{
+    height: 200px;
+  }
+  .card{
+    margin-bottom: 30px;
+    
+  }
+  .row{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .row2{
+    margin-top: 20px;
+  }
+  }
+img{
+    
+    height: 520px;
+    width: 100%;
+    }
+    .card-img-top{
+        height: 300px;
+    }
+    .row1{
+        margin-left: 150px;
+        background-color:none;
+    }
+    .col-4{
+        padding: 30px;
+        
+    }
+    .card{
+        background-color: rgba(6, 6, 8, 0.306);
+        color: aliceblue;
+        box-shadow: 1px 1px 10px rgb(40, 31, 31);
+        
+    }
+    .btn{
+        background-color: black;
+        border: none;
+    }
